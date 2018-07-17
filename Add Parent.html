@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -56,55 +56,89 @@
                     <div class="card">
                         <div class="header">
                             <h2>
-                                Manage Subject
+                                Add Parent
                             </h2>
                         </div>
                         <div class="body">
-                         <h2 class="card-inside-title">Add Subject</h2>
                             <div class="row clearfix">
                                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="Title">Subject</label>
+                                    <label for="Title">Name</label>
                                 </div>
                                 <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
                                     <div class="form-group">
                                         <div class="form-line">
-                                           <input type="text" class="form-control" placeholder="Name" />
+                                           <select class="form-control">
+                                        <option>Aaditya</option>
+                                        <option>Divyani</option>
+                                        <options>Sonika</option>
+                                        </select>
                                         </div>
                                     </div>
                                 </div>
                             <div class="row clearfix">
                                          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                            <label for="email">Class</label>
+                                            <label for="email">Email</label>
                                         </div>
                                         <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
                                              <div class="form-group">
                                                 <div class="form-line">
-                                            <select class="form-control">
-                                        <option>One</option>
-                                        <option>Two</option>
-                                        <options>Three</option>
-                                        </select>
+                            <input type="text" class="form-control"  placeholder="Email" required autofocus>
+                        </div>      
                                         </div>
                                     </div>
                                 </div>
                             </div>
                                   <div class="row clearfix">
                                          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                            <label for="email">Teacher</label>
+                                            <label for="email">Password</label>
                                         </div>
                                         <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
                                              <div class="form-group">
                                                 <div class="form-line">
-                                                    <select class="form-control">
-                                        <option>Select Teacher</option>
-                                        <option>Ram</option>
-                                        <option>Aaditya</option>
-                                        <options>Divyani</option>
-                                    </select>
-                                         </div>
+                            <input type="password" class="form-control" name="password" minlength="5" placeholder="Password" required>
                                     </div>
-                                </div></div>
-                            <button class="btn btn-block btn-lg bg-pink waves-effect" type="Submit">Add Subject</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                    <label for="email">Phone</label>
+                                </div>
+                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                            <input type="text" class="form-control" name="contact" minlength="10" placeholder="Contact" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                    <label for="email">Address</label>
+                                </div>
+                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                            <input type="text" class="form-control" name="address" minlength="10" placeholder="Address" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                    <label for="email">Profession</label>
+                                </div>
+                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                            <input type="text" class="form-control" name="profession" minlength="10" placeholder="Profession" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                            <button class="btn btn-block btn-lg bg-pink waves-effect" type="Submit">Add Parent</button>
                     </div>
                 </div>
             </div>
